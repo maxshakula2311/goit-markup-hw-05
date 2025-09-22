@@ -399,16 +399,19 @@
                     <textarea name="user-comment" id="user-comment" placeholder="Text input" class="form-commentarea"></textarea>
                 </div>
                 <div class="form-checkbox-cont">
-                    <input type="checkbox" id="user-privacy" value="true" name="user-privacy" class="form-checkbox-box visually-hidden">
                     <label for="user-privacy" class="form-checkbox-label"> 
-                        <span class="form-checkbox">
-                            <svg width="8" height="10" class="form-checkmark">
+                        <input type="checkbox" id="user-privacy" value="true" name="user-privacy" class="form-checkbox-box visually-hidden"><span class="form-checkbox">
+                            <svg width="10" height="8" class="form-checkmark">
                                 <use href="./images/icons.svg#icon-checkmark"></use>
                             </svg>
                         </span>
-                        I accept the terms and conditions of the
+                        I accept the terms and conditions of the 
+                        <a href="#" class="form-privpol">Privacy Policy</a>
                     </label>
                 </div>
+                <button type="submit" class="form-button">
+                        Send
+                    </button>
             </form>
         </div>
     </div>
